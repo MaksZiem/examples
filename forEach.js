@@ -109,7 +109,7 @@ function capitalizeNames(names) {
   names.forEach((name) => {
     funnNames.push(name.charAt(0).toUpperCase() + name.slice(1).toLowerCase());
   });
-  console.log(funnNames);
+  // console.log(funnNames);
 }
 
 // console.log(capitalizeNames(names))
@@ -219,7 +219,7 @@ function groupWordsByLength2(words) {
   return result;
 }
 
-console.log(groupWordsByLength(["apple", "bat", "car", "dog", "elephant"]));
+// console.log(groupWordsByLength(["apple", "bat", "car", "dog", "elephant"]));
 
 // jak nie ma obiektu z kluczem zawierajacym dlugosc slowa to zostawia pusta tablice a jak ma to dodaje ale najpierw go tworzy
 
@@ -304,7 +304,7 @@ function groupByProperty(arr, prop) {
   return result
 }
 
-console.log(groupByProperty([{ age: 20 }, { age: 30 }, { age: 20 }], 'age'))
+// console.log(groupByProperty([{ age: 20 }, { age: 30 }, { age: 20 }], 'age'))
 
 // 15. Map Elements to Indices
 // Description:
