@@ -182,6 +182,15 @@ function transformToObject(arr) {
   return result
 }
 
-console.log(transformToObject(['apple', 'bat']))
+// console.log(transformToObject(['apple', 'bat']))
 
 
+const funciton2 = () => {
+  console.log(`${this.name}`)
+}
+
+const person = {name: "max"}
+
+const maxfunc = funciton2.bind(person)
+
+maxfunc()
