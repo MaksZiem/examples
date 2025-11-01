@@ -71,6 +71,7 @@ function countOccurrences(items) {
   return counts;
 }
 
+
 // Tworzymy pusty obiekt counts: Będzie on przechowywał liczbę wystąpień każdego elementu.
 // Iterujemy po tablicy items: Za pomocą pętli for przechodzimy przez każdy element tablicy.
 // Aktualizujemy licznik: Dla każdego elementu sprawdzamy, czy już istnieje w obiekcie counts. Jeśli tak, zwiększamy jego wartość o 1. Jeśli nie, przypisujemy mu wartość 1.
